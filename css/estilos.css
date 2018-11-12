@@ -1,0 +1,91 @@
+.navbar {
+    background-color: #0f5257;
+    height: 106px;
+    font-family: "Montserrat";
+    color: #FFF;
+    padding: 24px 0;
+}
+.navbar-brand {
+    font-weight: 700;
+    font-size: 32px;
+    color: #FFF;
+}
+header {
+    background-color: #8c5f66;
+    height: 100vh;
+}
+header .container {
+    padding-top: 6rem;
+}
+header h1 {
+    font-weight: 700;
+    color: #FFF;
+    font-size: 72px;
+    font-family: "Montserrat";
+    padding-bottom: 2.5rem;
+}
+header h2 {
+    color: #FFF;
+    font-size: 28px;
+    font-family: "Lato";
+    padding-top: 2.5rem;
+}
+header img {
+    border-radius: 50%;
+    width: 256px;
+}
+hr.star-light, hr.star-dark {
+    color: #fff;
+    background-color: #8c5f66;
+    border-color: #fff;
+    max-width: 25rem;
+    border-top: solid .25rem;
+}
+hr.star-dark {
+    color: #8c5f66;
+    background-color: #8c5f66;
+    border-color: #8c5f66;
+    max-width: 25rem;
+    border-top: solid .25rem;
+}
+hr.star-light::after, hr.star-dark::after {
+    position: relative;
+    top: -.8em;
+    display: inline-block;
+    padding: 0 .25em;
+    content: '\f441';
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 2em;
+}
+hr.star-light::after {
+    background-color: #8c5f66;
+}
+hr.star-dark::after {
+    background-color: #FFF;
+}
+#portfolio h2 {
+    font-weight: 700;
+    color: #8c5f66;
+    font-size: 54px;
+    font-family: "Montserrat";
+    padding: 3rem 0;
+}
+#about h2 {
+    font-family: "Montserrat";
+}
+#about {
+    background-color: #8c5f66;
+}
+.columnas p {
+    columns: auto 2;
+}
+button:hover {
+    background-color: #FFF;
+    color: #8c5f66;
+}
+.columnas p {
+    font-family: "Lato", Helvetica, sans-serif;
+    line-height: 1.8rem;
+    font-size: 1.2rem;
+}
